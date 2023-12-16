@@ -36,7 +36,10 @@ CONSECUTIVOS_TOP10 = Dias consecutivos em que um filme ficou em top 10
 **Já que os filmes e as vezes suas posições no rank se repetiam, construí um sistema de pontos em que na posição 1 no rank o filme recebe 10 pontos, na posição 2 ele recebe 9 e assim até 10, após isso fiz a soma dos pontos de cada filme e consegui tirar uma relevância melhor dos dados que eu tinha em mãos.**
 
 Fiz uma análise dos dados usando o Pandas e Excel para ver o que eu tinha pra trabalhar, cheguei a conclusão de que eram pouquíssimos dados que eu tinha, então eu coloquei como objetivo aprender melhor como trabalhar com poucos dados já que é muitos mais fácil trabalhar com muitos, onde você consegue ter uma grande variedade de análises sem muita preocupação, e esse meu dataset não tinha nem quantidade de horas assistidas ou quantidade de pessoas que assistiram.
-
+        
 Então como primeiro item quis fazer uma visualização breve do rank mínimo e máximo em que um filme ou série alcançou e a variância do mesmo, olhando o gráfico sem nenhum filtro isso não parece de grande utilidade por que obviamente ele sempre vai estar como 1 em mínimo e 10 em máximo, mas quando é feita a relação com um filme especifico ou uma data especifica é possível tirar informações uteis disso.
 
 Após isso eu construí dois gráficos, um de barras e um geográfico, no de barras eu utilizei o sistema de pontos e fiz um rank dos filmes, e no geográfico foi feito o rank dos filmes em cada pais, assim mostrando o filme no top rank apenas passando o cursor no pais desejado, além disso o vinculo do gráfico com o rank e o geográfico é feito automaticamente ja que se for feita a seleção de um filme ja exibe no geográfico os países que mais assistiram o mesmo, e se clica em um país é mostrado o rank dos filmes mais assistidos no gráfico de barras. 
+
+Link do DASHBOARD: https://lookerstudio.google.com/reporting/e153109b-29c9-4dd4-8ab6-41e488caac4b
+![Screenshot_2](https://github.com/Nicollas-str/NetflixMovies/assets/131723944/f7600596-ac29-4f3d-be29-26037db05d9f)
